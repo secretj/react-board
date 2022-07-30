@@ -2,13 +2,19 @@
   text-align: center;
 }
 
-.movie-container{
+.board-container{
   margin: 0 auto;
   width: 80%;
   border: 1px solid #333;
-  padding: 10px 0 30px 0;
+  padding: 0px 0 30px 0;
   border-radius: 5px;
   margin-bottom: 50px;
+}
+
+.sub-board-container{
+  border-bottom : 2px solid #ff0;
+  padding-bottom: 10px;
+  
 }
 
 .from-wrapper{
@@ -22,9 +28,11 @@
   margin: 10px;
 }
 
-.text-area{
-  width: 80%;
-  min-height: 500px;
+.content-input{
+  height: 100px;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .submit-button{
@@ -39,6 +47,6 @@
   vertical-align: middle;
 }
 
-.ck.ck-editor__editable:not(.ck-deitor__nested-editable){
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
   min-height: 500px;
 }
