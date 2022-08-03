@@ -47,6 +47,20 @@
   vertical-align: middle;
 }
 
-.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
-  min-height: 500px;
+.header{
+  text-align: center;
+  text-decoration-color: plum;
+}
+
+.index-button{
+  width: 140px;
+  height: 50px;
+  font-size: 20px;
+  color: aliceblue;
+  padding: 5px;
+  border: none;
+  background-color: purple;
+  border-radius: 10px;
+  margin: 20px 5px 50px 0px;
+  vertical-align: middle;
 }

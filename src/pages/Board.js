@@ -1,10 +1,8 @@
 import { useState } from 'react';
-import './App.css';
-// import { CKEditor } from '@ckeditor/ckeditor5-react';
-// import { ClassicEditor } from '@ckeditor/ckeditor5-build-classic';
-// //import ReactHtmlParser from 'react-html-parser';
+import '../App.css';
 
-function App() {
+
+function Board() {
   const [stateContent, setStateContent] = useState({
     title: '',
     content: ''
@@ -25,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Williroy homework</h1>
+      <h1>Williroy Board</h1>
       <div className='board-container'>
         {viewContent.map(element =>
           <div className='sub-board-container'>
@@ -61,4 +59,4 @@ function App() {
   );
 }
 
-export default App;
+export default Board;
