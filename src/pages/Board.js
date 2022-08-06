@@ -49,7 +49,6 @@ function Board() {
             </div>
           )}
         </div>
-        <form >
           <div className='from-wrapper'>
             <input className="title-input"
               type='text'
@@ -71,7 +70,6 @@ function Board() {
             setViewContent(viewContent.concat({ ...stateContent }));
           }
           }>입력</button>
-        </form>
       </div>
 
     </>
