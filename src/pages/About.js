@@ -7,7 +7,7 @@ function About() {
 
     useEffect(() => {
         alert("Hello, About Page")
-    }, [])
+    },[])
 
     const [stateContent, setStateContent] = useState({
         title: '',
