@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 function About() {
 
     useEffect(() => {
-        alert("Hello, About Page")
+        alert("안녕 ! , About Page")
     },[])
 
     const [stateContent, setStateContent] = useState({
@@ -17,6 +17,7 @@ function About() {
 
 
     const [viewContent, setViewContent] = useState([]);
+
 
     const getValue = e => {
         const { name, value } = e.target;

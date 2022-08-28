@@ -10,7 +10,7 @@ import '../App.css';
 function Board() {
 
   useEffect(()=>{
-    alert("Hello, Board Page")
+    alert("안녕 ! , Board Page")
   },[])
 
   const [stateContent, setStateContent] = useState({
@@ -30,6 +30,8 @@ function Board() {
 
   
   };
+
+
 
 
 
@@ -72,7 +74,10 @@ function Board() {
           }>입력</button>
       </div>
 
-    </>
+    
+    
+ 
+     </>
   );
 }
 

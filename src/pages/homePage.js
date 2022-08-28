@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom"
 import Board from './Board.js'
 import About from './About.js'
+import Navermap from './Navermap.js'
 import '../App.css'
 
 
@@ -17,11 +18,15 @@ function homePage() {
                     <NavLink to="About">
                         <button className="index-button">About 화면으로</button>
                     </NavLink>
+                    <NavLink to="navermap">
+                        <button className="index-button">navermap 화면으로</button>
+                    </NavLink>
                 </nav>
                 <Routes>
                     <Route path="/" element={<homePage />} />
                     <Route path="Board" element={<Board />} />
                     <Route path="About" element={<About />} />
+                    <Route path="Navermap" element={<Navermap />} />
 
                 </Routes>
             </BrowserRouter>
